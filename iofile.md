@@ -37,20 +37,32 @@
 1.什么是缓冲区
 这篇[blog](https://blog.csdn.net/fuhanghang/article/details/109756207)
 内存空间的一部分，用来缓存输入或输出的数据,加快速度的读取
+
 2.fflush函数
+
 刷新缓冲区
 刷新的方法：
+
 1、缓冲区满时；
 2、执行flush语句；（flush：冲洗，冲走）
 3、执行endl语句；（end line
 4、关闭文件。
+
+
 3._setbuf函数
+
 4.exit（1377）
+
 返回1377到主线程
+
 5.close函数
+
 0,1,2分别表示stdin，stdout，stderr
+
 6.read函数和write函数   
+
 读取到回车为止（read）
+
 #### 基本信息
 
 #### 思路
